@@ -1,0 +1,27 @@
+.container {
+  width: 500px;
+  height: 60px;
+  padding: 10px;
+}
+
+.button {
+  width: 80px;
+  margin: 0 10px;
+  padding: 5px;
+  font-size: 16px;
+  color: #413a3a;
+  
+  border-radius: 5px;
+  border-color:  #413a3a;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #4493fc;
+}
+
+.button:active {
+  background-color: #4493fc;
+
+  transform: scale(0.95);
+}
